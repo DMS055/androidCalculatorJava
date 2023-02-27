@@ -64,41 +64,45 @@
                 android:textSize="@dimen/calcButtonSize"
                 android:text="C"
                 android:onClick="clearOnClick"
-                style="?android:attr/buttonBarButtonStyle">
+                style="?android:attr/buttonBarButtonStyle"
+                tools:ignore="VisualLintButtonSize">
             </Button>
+
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@null"
-                android:textColor="@color/highlight2"
-                android:textSize="@dimen/calcButtonSize"
-                android:text="()"
                 android:onClick="bracketsOnClick"
-                style="?android:attr/buttonBarButtonStyle">
-            </Button>
+                android:text="()"
+                android:textColor="@color/highlight2"
+                android:textSize="@dimen/calcButtonSize"
+                tools:ignore="TextContrastCheck,VisualLintButtonSize"></Button>
+
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@null"
-                android:textColor="@color/highlight2"
-                android:textSize="@dimen/calcButtonSize"
-                android:text="^"
                 android:onClick="powerOnClick"
-                style="?android:attr/buttonBarButtonStyle">
-            </Button>
+                android:text="^"
+                android:textColor="@color/highlight2"
+                android:textSize="@dimen/calcButtonSize"
+                tools:ignore="TextContrastCheck,VisualLintButtonSize"></Button>
+
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@null"
+                android:onClick="divisionOnClick"
+                android:text="/"
                 android:textColor="@color/highlight2"
                 android:textSize="@dimen/calcButtonSize"
-                android:text="/"
-                android:onClick="divisionOnClick"
-                style="?android:attr/buttonBarButtonStyle">
-            </Button>
+                tools:ignore="TextContrastCheck,VisualLintButtonSize"></Button>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -114,7 +118,8 @@
                 android:text="7"
                 android:textColor="@color/white"
                 android:onClick="sevenOnClick"
-                android:textSize="@dimen/calcButtonSize" />
+                android:textSize="@dimen/calcButtonSize"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
                 android:layout_width="0dp"
@@ -125,7 +130,8 @@
                 android:textSize="@dimen/calcButtonSize"
                 android:text="8"
                 android:onClick="eightOnClick"
-                style="?android:attr/buttonBarButtonStyle">
+                style="?android:attr/buttonBarButtonStyle"
+                tools:ignore="VisualLintButtonSize">
             </Button>
             <Button
                 android:layout_width="0dp"
@@ -136,19 +142,21 @@
                 android:textSize="@dimen/calcButtonSize"
                 android:text="9"
                 android:onClick="nineOnClick"
-                style="?android:attr/buttonBarButtonStyle">
+                style="?android:attr/buttonBarButtonStyle"
+                tools:ignore="VisualLintButtonSize">
             </Button>
+
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@null"
+                android:onClick="timesOnClick"
+                android:text="x"
                 android:textColor="@color/highlight2"
                 android:textSize="22sp"
-                android:text="x"
-                android:onClick="timesOnClick"
-                style="?android:attr/buttonBarButtonStyle">
-            </Button>
+                tools:ignore="TextContrastCheck,VisualLintButtonSize"></Button>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -165,19 +173,20 @@
                 android:text="4"
                 android:textColor="@color/white"
                 android:onClick="fourOnClick"
-                android:textSize="@dimen/calcButtonSize" />
+                android:textSize="@dimen/calcButtonSize"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@null"
+                android:onClick="fiveOnClick"
+                android:text="5"
                 android:textColor="@color/white"
                 android:textSize="@dimen/calcButtonSize"
-                android:text="5"
-                android:onClick="fiveOnClick"
-                style="?android:attr/buttonBarButtonStyle">
-            </Button>
+                tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize"></Button>
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -187,19 +196,21 @@
                 android:textSize="@dimen/calcButtonSize"
                 android:text="6"
                 android:onClick="sixOnClick"
-                style="?android:attr/buttonBarButtonStyle">
+                style="?android:attr/buttonBarButtonStyle"
+                tools:ignore="VisualLintButtonSize">
             </Button>
+
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@null"
+                android:onClick="minusOnClick"
+                android:text="-"
                 android:textColor="@color/highlight2"
                 android:textSize="40sp"
-                android:text="-"
-                android:onClick="minusOnClick"
-                style="?android:attr/buttonBarButtonStyle">
-            </Button>
+                tools:ignore="TextContrastCheck,VisualLintButtonSize"></Button>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -216,7 +227,8 @@
                 android:text="1"
                 android:textColor="@color/white"
                 android:onClick="oneOnClick"
-                android:textSize="@dimen/calcButtonSize" />
+                android:textSize="@dimen/calcButtonSize"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
                 android:layout_width="0dp"
@@ -227,7 +239,8 @@
                 android:textSize="@dimen/calcButtonSize"
                 android:text="2"
                 android:onClick="twoOnClick"
-                style="?android:attr/buttonBarButtonStyle">
+                style="?android:attr/buttonBarButtonStyle"
+                tools:ignore="VisualLintButtonSize">
             </Button>
             <Button
                 android:layout_width="0dp"
@@ -238,19 +251,21 @@
                 android:textSize="@dimen/calcButtonSize"
                 android:text="3"
                 android:onClick="threeOnClick"
-                style="?android:attr/buttonBarButtonStyle">
+                style="?android:attr/buttonBarButtonStyle"
+                tools:ignore="VisualLintButtonSize">
             </Button>
+
             <Button
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@null"
+                android:onClick="plusOnClick"
+                android:text="+"
                 android:textColor="@color/highlight2"
                 android:textSize="25sp"
-                android:text="+"
-                android:onClick="plusOnClick"
-                style="?android:attr/buttonBarButtonStyle">
-            </Button>
+                tools:ignore="TextContrastCheck,VisualLintButtonSize"></Button>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -267,7 +282,8 @@
                 android:text="."
                 android:textColor="@color/white"
                 android:onClick="decimalOnClick"
-                android:textSize="@dimen/calcButtonSize"/>
+                android:textSize="@dimen/calcButtonSize"
+                tools:ignore="VisualLintButtonSize" />
 
             <Button
                 android:layout_width="0dp"
@@ -278,7 +294,8 @@
                 android:textSize="@dimen/calcButtonSize"
                 android:text="0"
                 android:onClick="zeroOnClick"
-                style="?android:attr/buttonBarButtonStyle">
+                style="?android:attr/buttonBarButtonStyle"
+                tools:ignore="VisualLintButtonSize">
             </Button>
             <Button
                 android:layout_width="0dp"
@@ -289,7 +306,8 @@
                 android:textSize="40sp"
                 android:text="="
                 android:onClick="equalsOnClick"
-                style="?android:attr/buttonBarButtonStyle">
+                style="?android:attr/buttonBarButtonStyle"
+                tools:ignore="VisualLintButtonSize">
             </Button>
         </LinearLayout>
     </LinearLayout>
