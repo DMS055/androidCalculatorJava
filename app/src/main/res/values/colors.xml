@@ -7,7 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="darkGray">#FF202020</color>
+    <color name="bgColor">#FF1A1A40</color>
     <color name="orange">#FFFF8C00</color>
+    <color name="buttonColor">#1B0059</color>
     <color name="red">#FFB22222</color>
+    <color name="highlight1">#FFFA58B6</color>
+    <color name="highlight2">#FF7A0BC0</color>
+    <color name="highlight3">#FF865DFF</color>
+    <color name="darkGray">#0D0D0D</color>
 </resources>
